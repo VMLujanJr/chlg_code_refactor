@@ -54,7 +54,7 @@ header nav {
     list-style-type: none;
 }
 
-header li {
+header li { /* maybe add a class? */
     display: inline-block;
     margin-left: 25px;
 }
@@ -120,49 +120,17 @@ header li {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost { /* condensed code */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 { /* condensed code */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img { /* condensed code */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -177,7 +145,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
 /* END */
