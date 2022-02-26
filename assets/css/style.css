@@ -12,6 +12,19 @@ body {
 }
 /* END */
 
+/* Utility class */
+a { /* targets all anchor elements */
+    color: #ffffff;
+    text-decoration: none;
+}
+/* END */
+
+/* Utility class */
+p { /* targets all paragraph elements */
+    font-size: 16px;
+}
+/* END */
+
 /* Navigation sec. - START */
 header {
     padding: 20px;
@@ -25,7 +38,7 @@ header h1 {
     font-size: 48px;
 }
 
-.seo {
+.seo { /* a span element - change to desired color */
     color: #d9dcd6;
 }
 
@@ -37,27 +50,15 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
+.sec-list {
     list-style-type: none;
 }
 
-header nav ul li {
+header li {
     display: inline-block;
     margin-left: 25px;
 }
-/* END */
 
-/* Utility class */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-/* END */
-
-/* Utility class */
-p {
-    font-size: 16px;
-}
 /* END */
 
 /* Hero sec. - START */
