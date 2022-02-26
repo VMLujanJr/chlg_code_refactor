@@ -1,16 +1,18 @@
-/* Universal Selector - START */
+/* Universal selector - START */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Universal Selector - END */
+/* END */
 
+/* Background - START */
 body {
     background-color: #d9dcd6;
 }
+/* END */
 
-/* Navigation Section - START */
+/* Navigation sec. - START */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,7 +25,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -43,19 +45,22 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* Navigation Section - END */
+/* END */
 
-/* could make more specific. ex: header nav ul li a or provide class= */
+/* Utility class */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/* same deal as anchor above */
+/* END */
+
+/* Utility class */
 p {
     font-size: 16px;
 }
+/* END */
 
-/* Hero Section - START */
+/* Hero sec. - START */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,9 +69,9 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* Hero Section - END */
+/* END */
 
-/* Main Content - START */
+/* Main Content sec. - START */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -82,9 +87,63 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* Main Content - END */
 
-/* Benefits Section - START */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* END */
+
+/* Benefits sec. - START */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -143,63 +202,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/* Benefit Section - END */
-/* this belongs in main content section - start */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* END */
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* end */
-/* Footer Section - START */
+/* Footer sec. - START */
 footer {
     padding: 30px;
     clear: both;
@@ -210,4 +215,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-/* Footer Section - END */
+/* END */
