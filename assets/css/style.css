@@ -66,19 +66,19 @@ header li {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); /* do background-images need alt attributes? If so, how to add?*/
     background-size: cover;
     background-position: center;
 }
 /* END */
 
 /* Main Content sec. - START */
-.float-left {
+.float-left { /* Utility class */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* Utility class */
     float: right;
     margin-left: 25px;
 }
@@ -89,7 +89,7 @@ header li {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing { /* condensed code */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -98,47 +98,11 @@ header li {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.content img { /* condensed code */
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.content h2 { /* condensed code */
     margin-bottom: 20px;
     font-size: 36px;
 }
