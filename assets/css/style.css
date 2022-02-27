@@ -12,7 +12,7 @@ body {
 }
 /* END */
 
-/* Utility class */
+/* Element selector */
 p { /* targets all paragraph elements */
     font-size: 16px;
 }
