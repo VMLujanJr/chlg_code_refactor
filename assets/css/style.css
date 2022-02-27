@@ -13,13 +13,6 @@ body {
 /* END */
 
 /* Utility class */
-a { /* targets all anchor elements */
-    color: #ffffff;
-    text-decoration: none;
-}
-/* END */
-
-/* Utility class */
 p { /* targets all paragraph elements */
     font-size: 16px;
 }
@@ -38,6 +31,11 @@ header h1 {
     font-size: 48px;
 }
 
+.href-links { /* Utility class */
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .seo { /* a span element - change to desired color */
     color: #d9dcd6;
 }
@@ -50,11 +48,11 @@ header nav {
     font-size: 20px;
 }
 
-.test {
+.list {
     list-style-type: none;
 }
 
-.test1 {
+.list-items {
     display: inline-block;
     margin-left: 25px;
 }
@@ -65,7 +63,7 @@ header nav {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg"); /* do background-images need alt attributes? If so, how to add?*/
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
