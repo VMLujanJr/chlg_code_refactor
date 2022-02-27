@@ -50,15 +50,14 @@ header nav {
     font-size: 20px;
 }
 
-.sec-list {
+header nav ul {
     list-style-type: none;
 }
 
-header li { /* maybe add a class? */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
 /* END */
 
 /* Hero sec. - START */
@@ -109,7 +108,7 @@ header li { /* maybe add a class? */
 /* END */
 
 /* Benefits sec. - START */
-.benefits {
+.side-bar {
     margin-right: 20px;
     padding: 20px;
     clear: both;
