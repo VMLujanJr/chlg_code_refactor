@@ -5,48 +5,47 @@
 *Challenge Code Refactor* is an on-the-job ticket request from a marketing agency called Horiseon. They provided starter code and requested that I help them follow accessibility standards so that their website is optimized for search engines.
 
 Horiseon provided a list of acceptance criteria. It goes as follows:
-```
-- GIVEN a webpage meets accessibility standards
 
-- WHEN I view the source code
-- THEN I find semantic HTML elements
+- ~~GIVEN a webpage meets accessibility standards~~
 
-- WHEN I view the structure of the HTML elements
-- THEN I find that the elements follow a logical structure independent of styling and positioning
+- ~~WHEN I view the source code~~
+- ~~THEN I find semantic HTML elements~~
 
-- WHEN I view the image elements
-- THEN I find accessible alt attributes
+- ~~WHEN I view the structure of the HTML elements~~
+- ~~THEN I find that the elements follow a logical structure independent of styling and positioning~~
 
-- WHEN I view the heading attributes
-- THEN they fall in sequential order
+- ~~WHEN I view the image elements~~
+- ~~THEN I find accessible alt attributes~~
 
-- WHEN I view the title element
-- THEN I find a concise, descriptive title
-```
+- ~~WHEN I view the heading attributes~~
+- ~~THEN they fall in sequential order~~
+
+- ~~WHEN I view the title element~~
+- ~~THEN I find a concise, descriptive title~~
+
 
 Furthermore,
-```
+
 Technical
-- Application links all function correctly
-- Application CSS selectors and properties are consolidated and organized to follow semantic structure
-- Application's CSS file is properly commented
+- ~~Application links all function correctly~~
+- ~~Application CSS selectors and properties are consolidated and organized to follow semantic structure~~
+- ~~Application's CSS file is properly commented~~
 
 Deployment
-- Application deployed at live URL
-- Application loads with no errors
+- ~~Application deployed at live URL~~
+- ~~Application loads with no errors~~
 - Application GitHub URL submitted
 
 Application Quality
-- Application resembles at least 90% of the 
+- ~~Application resembles at least 90% of the original screenshots~~
 
 Repository Quality
 
-- Repository has a unique name
+- ~~Repository has a unique name~~
 - Repository follows best practices for file structure and naming conventions
-- Repository follows best practices for class / id naming conventions, indentation, quality comments, etc.
-- Repository contains multiple descriptive commit messages
-- Repository contains quality README file with description, screenshots, and link to deployed application
-```
+- ~~Repository follows best practices for class / id naming conventions, indentation, quality comments, etc.~~
+- ~~Repository contains multiple descriptive commit messages~~
+- ~~Repository contains quality README file with description, screenshots, and link to deployed application~~
 
 ## Installation
 ```
@@ -70,6 +69,9 @@ Finally, navigate the **Explorer (Ctrl + Shift + E)** *if on Windows, inside of 
 
 
 ## Usage
+
+### Link to Deployed URL
+View live URL @ https://vmlujanjr.github.io/chlg_code_refactor/
 
 ```
 These are screenshots before and after the requested edits. 
