@@ -26,20 +26,20 @@ Horiseon provided a list of acceptance criteria. It goes as follows:
 
 Furthermore,
 ```
-**Technical**
+Technical
 - Application links all function correctly
 - Application CSS selectors and properties are consolidated and organized to follow semantic structure
 - Application's CSS file is properly commented
 
-**Deployment**
+Deployment
 - Application deployed at live URL
 - Application loads with no errors
 - Application GitHub URL submitted
 
-**Application Quality**
+Application Quality
 - Application resembles at least 90% of the 
 
-**Repository Quality**
+Repository Quality
 
 - Repository has a unique name
 - Repository follows best practices for file structure and naming conventions
